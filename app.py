@@ -9,8 +9,8 @@ from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'C:/uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
-ACCESS_KEY = 'AKIA6HXBWCEHYQZNFC7I'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 DB = "6632808"
 
 app = Flask(__name__)
