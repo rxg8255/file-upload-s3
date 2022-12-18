@@ -1,7 +1,7 @@
 import mysql.connector
 import os
 
-ENDPOINT = "s3-file-upload.cevyuammehpq.us-east-2.rds.amazonaws.com"
+ENDPOINT = "xxxxxxxxxxxx.rds.amazonaws.com"
 PORT = "3306"
 USER = "admin"
 REGION = "us-east-2"
