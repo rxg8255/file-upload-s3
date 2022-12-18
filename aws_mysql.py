@@ -9,7 +9,7 @@ DBNAME = "s3_files_info"
 os.environ['LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN'] = '1'
 
 
-token = "Chinnu123"
+token = ""
 
 try:
     conn = mysql.connector.connect(host=ENDPOINT, user=USER, passwd=token, port=PORT, database=DBNAME,
